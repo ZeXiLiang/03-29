@@ -1,0 +1,269 @@
+<!doctype html>
+<html>
+   <head>
+       <title></title>
+       <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="format-detection" content="telephone=no">
+<meta name="format-detection" content="email=no">
+
+
+       <style>
+
+
+           html {
+            height: 100%;
+             font-size: 625%;
+           }
+           html,body,div,p,input {
+            margin: 0; padding: 0;
+          }
+           
+           body {
+            height: 100%; 
+            font-size: .16rem;
+            background-color: #eff0f4;
+          }
+           
+           .nav-Ground {
+            position: relative;
+            color: #fff;
+            margin:  0 0.3rem;
+            height: 0.88rem;
+            
+           }
+           .nav-Left-Model {
+            position: relative;
+            top: 0;
+            line-height:0.88rem;
+            text-align: left;
+            
+           }
+           .nav-Left {
+            position: absolute;
+            left: 0;
+            right: 0;
+            font-size: 0.32rem;
+            cursor: pointer;
+            
+             
+           }
+           .nav-Center-Model {
+            position: relative;
+            top: 0;
+            line-height: 0.88rem;
+            text-align: center;
+           }
+           .nav-Center {
+            position: absolute;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            
+            cursor: pointer;
+            font-size: 0.32rem;
+            font-weight: bold;
+           }
+           .nav-Right-Model {
+            position: relative;
+            top: 0;
+            text-align: right;
+            line-height:0.88rem;
+           }
+           .nav-Right {
+            cursor: pointer;
+            position: absolute;
+            top: 0;
+            right: 0;
+            font-size: 0.32rem;
+           }
+           .nav-b {
+            width: 100%;
+            height: 0.88rem;
+            background-color: #5ac0ce;
+           }
+           .account {
+            overflow: hidden;
+            position: relative;
+            top:.12rem;
+            width: 100%;
+            height: 1rem;
+            line-height: 1rem;
+            background-color: #fff;
+           
+           }
+           .account-img {
+         
+          padding: 0 .42rem;
+           width: .27rem;
+           height: 1rem;
+           line-height: 1rem;
+           
+       
+
+           }
+           .account-img img {
+               
+               vertical-align: middle;
+               
+           
+           }
+            .account p {
+           float: left;
+            position: relative;
+            top: -.75rem; 
+            left: 1.15rem;  
+            width: .1rem;
+            border-left:2px solid #eaedee;
+            height: .5rem;    
+           }
+            .account-Key {
+             
+              
+             position: relative;
+             top:-1rem;
+             left:1.48rem;
+             width: 79.16666667%;
+             height: 1.0rem;
+             overflow: hidden;
+             border: none;
+             outline: none;
+             line-height: 1rem;
+            
+             font-size: .32rem;
+           }
+           
+           .password {
+            overflow: hidden;
+           position: relative;
+           top:.24rem;
+          background-color: #fff;
+           width: 100%;
+           height: 1rem;    
+           }
+            .password p {
+            float: left;
+            position: relative;
+            top: -.75rem; 
+            left: 1.15rem;  
+            width: .1rem;
+            border-left:2px solid #eaedee;
+            height: .5rem;    
+           }
+           .password-Key {
+             position: relative;
+             top:-1rem;
+             left:1.48rem;
+             width: 79.16666667%;
+             height: 1.0rem;
+             overflow: hidden;
+             border: none;
+             outline: none;
+             line-height: 1rem;
+             
+             font-size: .32rem;
+           }
+           .submit-btn {
+            position: relative;
+            top: .68rem;
+            height: 1rem;
+            width: 100%;
+            background-color: #5ac0ce;
+            
+           }
+           .submit-btn p{
+           color: #fff;
+           line-height: 1rem;
+           font-size: .32rem;
+           text-align: center;
+           margin: 0 .2rem;
+          
+           }
+           .submit-btn:hover {
+            cursor: pointer;
+           }
+      
+           
+            .password-img {
+            
+            position: relative;
+           top: 0;
+           left: .42rem;
+           width: .27rem;
+           height: 1rem;
+           line-height: 1rem;
+           text-align: center;
+           font-size: 0;
+           }
+           .password img {
+            line-height: 1rem;
+            vertical-align: middle;
+           }
+           .password-m {
+
+            position: relative;
+            left: 0;
+            top: .6rem;
+            font-size: 0.32rem;
+
+           }
+           .password-m p {
+            text-align: right;
+            color: #5fc0cd;
+            margin:.3rem;
+           }
+
+             
+       </style>
+    </head>
+    <body>
+ 
+            <div class="nav-b">
+            <div class="nav-Ground">
+                <div class="nav-Left-Model">
+                    <p class="nav-Left">注册</p>
+                </div>
+                <div class="nav-Center-Model">
+                    <p class="nav-Center">登陆</p>
+                </div>
+                <div class="nav-Right-Model">
+                    <p class="nav-Right">关闭</p>
+                </div>
+            </div>
+            </div>
+            
+            <div class="account">
+              
+                <div class="account-img">
+                     <img src="https://zexiliang.github.io/03-29/%E7%99%BB%E9%99%86.png" width="27" height="40" alt="denglu">
+                 </div> 
+            
+                <p></p>
+                
+             
+                <input class="account-Key" id="searchwords" type="text" autocomplete="off" value="请输入手机号"onfocus="if(this.value=='请输入手机号'){this.value=''};this.style.color='#333';" onblur="if(this.value==''||this.value=='请输入手机号'){this.value='请输入手机号';this.style.color='#e1e5e7';}" style="color:rgb(225,229,231);">
+            </div>
+            
+            
+              <div class="password">
+                   <div class="password-img">
+                        <img src="https://zexiliang.github.io/03-29/%E7%99%BB%E9%99%8601.png" width="27" height="40" alt="denglu">
+                   </div> 
+                    <p></p>
+                 <input class="password-Key" type="text" autocomplete="off" value="请输入密码"onfocus="if(this.value=='请输入密码'){this.value=''};this.style.color='#333';" onblur="if(this.value==''||this.value=='请输入密码'){this.value='请输入密码';this.style.color='#e1e5e7';}" style="color:rgb(225,229,231);">
+            </div>
+            
+            <div class="submit-btn">
+              
+                <p>登&nbsp;&nbsp;&nbsp;&nbsp;陆</p>
+               
+            </div>
+            <div class="password-m">
+            <p>忘记密码</p>
+            </div>
+   <script type="text/javascript">
+
+
+   </script>
+    </body>
+</html>
